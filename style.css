@@ -11,6 +11,8 @@ body {
     justify-content: center;
     align-self: center;
     margin-top: 200px;
+    border-radius: 10px;
+    overflow: hidden;
     }
 
 .details {
@@ -21,14 +23,14 @@ body {
     background-color: white;
 }
 .head {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     color: hsl(228, 12%, 48%);
 }
 .pName {
     font-size: 27px;
     color: hsl(212, 21%, 14%);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Fraunces', Times, serif;
     margin-top: 8px;
     margin-bottom: 8px;
     font-weight: 700;
@@ -36,7 +38,7 @@ body {
     padding-bottom: 5px;
 }
 .pInfo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -58,11 +60,12 @@ body {
     font-weight: 700;
     font-size: 25px;
     color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', Times, Serif;
 }
 .oldPrice {
     padding-left: 20px;
     padding-top: 4px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
